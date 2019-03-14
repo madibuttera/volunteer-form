@@ -20,34 +20,58 @@
 
     <main>
       <form>
+        <fieldset class="">
+          <legend class="">Personal details</legend>
+          <div class="">
 
+            <div class="">
+              <label for="name">Full name</label>
+              <input id="name" name="name" required>
+              <p class="">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            </div>
 
+            <div class="">
+              <label for="nickname">What should we call you?</label>
+              <input id="nickname" name="nickname" required>
+              <p class="">What all your friends call you, e.g. “Liz”.</p>
+            </div>
 
-      Personal details
+            <div class="">
+              <label class="" for="birthday">Date of birth</label>
+              <input id="birthday" name="birthday" type="date" required>
+            </div>
 
-      Full name
-      Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.
+            <div class="">
+              <label class="" for="size">T-shirt size</label>
+              <select id="size" name="_size">
+                <option value="">Select a t-shirt size</option>
+                <option>Fitted: XS</option>
+                <option>Fitted: S</option>
+                <option>Fitted: M</option>
+                <option>Fitted: L</option>
+                <option>Fitted: XL</option>
+                <option>Straight-cut: XS</option>
+                <option>Straight-cut: S</option>
+                <option>Straight-cut: M</option>
+                <option>Straight-cut: L</option>
+                <option>Straight-cut: XL</option>
+              </select>
+            </div>
 
-      What should we call you?
-      What all your friends call you, e.g. “Liz”.
+            <div class="">
+              <label class="" for="email">Email</label>
+              <input id="email" name="email" type="email" required>
+            </div>
 
-      Date of birth
+            <div class="">
+              <label class="" for="number">Phone number <span class="optional italic">(optional)</span></label>
+              <input id="number" name="number" type="tel" required>
+            </div>
+          </div>
+        </fieldset>
 
-      T-shirt size
-      - Select a t-shirt size
-      - Fitted: XS
-      - Fitted: S
-      - Fitted: M
-      - Fitted: L
-      - Fitted: XL
-      - Straight-cut: XS
-      - Straight-cut: S
-      - Straight-cut: M
-      - Straight-cut: L
-      - Straight-cut: XL
+        <hr class="push-2">
 
-      Email
-      Phone number (optional)
 
       Address
       Street address

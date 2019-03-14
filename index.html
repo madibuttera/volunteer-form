@@ -72,71 +72,185 @@
 
         <hr class="push-2">
 
+        <fieldset class="">
+          <legend class="">Address</legend>
+            <div class="">
 
-      Address
-      Street address
-      City
-      Postal code
+              <div class="">
+                <label class="" for="street">Street address</label>
+                <input class="" id="street" name="street" required>
+              </div>
 
-      Province
-      - Select a province
-      - Alberta
-      - British Columbia
-      - Manitoba
-      - New Brunswick
-      - Newfoundland & Labrador
-      - Northwest Territories
-      - Nova Scotia
-      - Nunavut
-      - Ontario
-      - Prince Edward Island
-      - Québec
-      - Saskatchewan
-      - Yukon
+              <div class="">
+                <label class="" for="city">City</label>
+                <input class="" id="city" name="city" required>
+              </div>
 
-      What activities are you interested in helping with?
-      - Digging holes
-      - Getting dirty
-      - Lifting heavy objects
-      - Driving people
-      - Transporting trees
-      - Taking photos
-      - Online publishing
-      - Managing people
+              <div class="">
+                <label class="" for="province">Province</label>
+                <select class="" id="province" name="_province">
+                  <option value="">Select a province</option>
+                  <option>Alberta</option>
+                  <option>British Columbia</option>
+                  <option>Manitoba</option>
+                  <option>New Brunswick</option>
+                  <option>Newfoundland & Labrador</option>
+                  <option>Northwest Territories</option>
+                  <option>Nova Scotia</option>
+                  <option> Nunavut</option>
+                  <option>Ontario</option>
+                  <option>Prince Edward Island</option>
+                  <option>Québec</option>
+                  <option>Saskatchewan</option>
+                  <option>Yukon</option>
+                </select>
+              </div>
 
-      Do you have any experience with the following?
-      - Shovels
-      - Hand-held GPS
-      - Writing & blogging
-      - Photography
-      - Trail & hill climbing
-      - Bush craft
-      - ATVs
-      - Plant identification
-      - Special event planning
-      - Speaking to groups
+              <div class="">
+                <label class="" for="postal">Postal code</label>
+                <input class="" id="postal" name="postal" required>
+              </div>
+            </div>
+          </fieldset>
 
-      Do you have a valid driver’s license?
-      - Yes
-      - No
+          <fieldset class="">
+            <legend class="">What activities are you interested in helping with?</legend>
+            <div class="">
+              <div class="">
+                <div class="">
+                  <input type="checkbox" id="digging">
+                  <label for="digging">Digging holes</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="dirty">
+                  <label for="dirty">Getting dirty</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="lifting">
+                  <label for="lifting">Lifting heavy objects</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="driving">
+                  <label for="driving">Driving people</label>
+                </div>
+              </div>
 
-      Do you have a pick-up truck you’d be willing to use?
-      - Yes
-      - No
+              <div class>
+                <div class="">
+                  <input type="checkbox" id="trees">
+                  <label for="trees">Transporting trees</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="photos">
+                  <label for="photos">Taking photos</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="publishing">
+                  <label for="publishing">Online publishing</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="manage">
+                  <label for="manage">Managing people</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
 
-      Do you have up-to-date first-aid certification?
-      - Yes
-      - No
+          <fieldset class="">
+            <legend class="">Do you have any experience with the following?</legend>
+            <div class="">
 
-      Please let us know any comments or questions you may have.
+              <div class="">
+                <div class="">
+                  <input type="checkbox" id="shovel">
+                  <label for="shovel">Shovels</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="gps">
+                  <label for="gps">Hand-held GPS</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="writing">
+                  <label for="writing">Writing & blogging</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="photography">
+                  <label for="photography">Photography</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="trail">
+                  <label for="trail">Trail & hill climbing</label>
+                </div>
+              </div>
 
-      Apply
+              <div class="">
+                <div class="">
+                  <input type="checkbox" id="bush">
+                  <label for="bush">Bush craft</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="atvs">
+                  <label for="atvs">ATVs</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="plant">
+                  <label for="plant">Plant identification</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="event">
+                  <label for="event">Special event planning</label>
+                </div>
+                <div class="">
+                  <input type="checkbox" id="speaking">
+                  <label for="speaking">Speaking to groups</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <hr class="push-2">
 
+          <fieldset>
+            <legend class="">Do you have a valid driver’s license?</legend>
+            <div class="push">
+              <input type="radio" name="question-1" id="yes-1">
+              <label class="gutter" for="yes-1">Yes</label>
+              <input type="radio" name="question-1" id="no-1">
+              <label class="gutter" for="no-1">No</label>
+            </div>
+          </fieldset>
 
+          <fieldset>
+            <legend class="">Do you have a pick-up truck you’d be willing to use?</legend>
+            <div class="push">
+              <input type="radio" name="question-2" id="yes-2">
+              <label class="gutter" for="yes-2">Yes</label>
+              <input type="radio" name="question-2" id="no-2">
+              <label class="gutter" for="no-2">No</label>
+            </div>
+          </fieldset>
 
+          <fieldset>
+            <legend class="">Do you have up-to-date first-aid certification?</legend>
+            <div class="push">
+              <input type="radio" name="question-3" id="yes-3">
+              <label class="gutter" for="yes-3">Yes</label>
+              <input type="radio" name="question-3" id="no-3">
+              <label class="gutter" for="no-3">No</label>
+            </div>
+          </fieldset>
 
-      </form>
-    </main>
+          <div class="push-2">
+            <label class="" for="meggage">Please let us know any comments or questions you may have.</label>
+            <textarea id="meggage"></textarea>
+          </div>
+          <hr class="push-2">
+
+          <div class="text-center pad-t pad-b-2"
+            <button class="" type="submit">Apply</button>
+          </div>
+
+        </form>
+      </main>
 
     <footer>
       <div>

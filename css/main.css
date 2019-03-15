@@ -15,3 +15,19 @@ html {
 hr {
   border-color: #70ad55;
 }
+
+textarea {
+  height: 10em;
+}
+
+fieldset {
+  border: none;
+}
+
+.optional {
+  color: #70ad55;
+}
+
+.d-green {
+  background-color: #6e8c62;
+}
